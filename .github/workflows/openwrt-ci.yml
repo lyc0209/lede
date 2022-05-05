@@ -8,6 +8,8 @@
 name: OpenWrt-CI
 
 on:
+  # 允许手动运行
+  workflow_dispatch:
   schedule:
     - cron: 0 20 * * *
   release:
