@@ -11,9 +11,7 @@ on:
   # 允许手动运行
   workflow_dispatch:
   schedule:
-    - cron: 0 20 * * *
-  release:
-    types: [published]
+    - cron: 0 10 * * 5
 
 jobs:
 
